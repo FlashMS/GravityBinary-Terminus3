@@ -1,0 +1,21 @@
+=== Verifier Isolation Report ===
+Lane: verifier_isolation
+Severity: CRITICAL
+
+Prompt: Check verifier isolation for logical inference.
+
+--- Solver Outputs ---
+- 42
+- 41
+- 40
+
+--- Verifier Decisions ---
+- ACCEPT
+- ACCEPT
+- ACCEPT
+
+--- Issues ---
+- VERIFIER_DEPENDS_ON_SOLVER_OUTPUT
+
+--- Explanation ---
+Severity: CRITICAL Verifier decisions depend on solver outputs.

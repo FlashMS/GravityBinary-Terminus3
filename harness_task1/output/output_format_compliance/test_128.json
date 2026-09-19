@@ -1,0 +1,8 @@
+{
+  "file": "output/reasoning_drift/test_9.json",
+  "issues": [
+    "MISSING_KEY_PROMPT"
+  ],
+  "severity": "CRITICAL",
+  "explanation": "Severity: CRITICAL. Issues: MISSING_KEY_PROMPT."
+}

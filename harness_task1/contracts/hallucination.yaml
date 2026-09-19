@@ -1,0 +1,12 @@
+lane: hallucination
+version: 1.0
+
+blocked_external:
+  - "wikipedia"
+  - "research"
+  - "study"
+  - "historical"
+  - "scientists say"
+
+required_grounding:
+  - "prompt"

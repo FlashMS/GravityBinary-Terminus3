@@ -1,0 +1,20 @@
+{
+  "lane": "oracle_consistency",
+  "prompt": "What planet is closest to the Sun?",
+  "oracle_outputs": [
+    "oracle_default",
+    "oracle_default"
+  ],
+  "oracle_traces": [
+    [
+      "Oracle executed"
+    ],
+    [
+      "Oracle executed"
+    ]
+  ],
+  "runs": 3,
+  "issues": [],
+  "severity": "NONE",
+  "explanation": "Oracle is consistent across all runs."
+}

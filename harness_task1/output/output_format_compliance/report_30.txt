@@ -1,0 +1,8 @@
+=== Output Format Compliance Report ===
+Severity: CRITICAL
+
+--- Issues ---
+- MISSING_KEY_PROMPT
+
+--- Explanation ---
+Severity: CRITICAL. Issues: MISSING_KEY_PROMPT.

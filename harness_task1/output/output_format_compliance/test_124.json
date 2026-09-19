@@ -1,0 +1,10 @@
+{
+  "file": "output/reasoning_drift/test_5.json",
+  "issues": [
+    "MISSING_KEY_LANE",
+    "MISSING_KEY_SEVERITY",
+    "MISSING_KEY_EXPLANATION"
+  ],
+  "severity": "CRITICAL",
+  "explanation": "Severity: CRITICAL. Issues: MISSING_KEY_LANE, MISSING_KEY_SEVERITY, MISSING_KEY_EXPLANATION."
+}

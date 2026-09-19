@@ -1,0 +1,5 @@
+{"id": 1, "prompt": "Add 10 and 20. Do NOT use external knowledge. Output only the number."}
+{"id": 2, "prompt": "Multiply 4 and 5. Do NOT invent facts. Output only the number."}
+{"id": 3, "prompt": "Subtract 7 from 30. Stay grounded in the prompt. Output only the number."}
+{"id": 4, "prompt": "Divide 50 by 2. Do NOT add unrelated information. Output only the number."}
+{"id": 5, "prompt": "Add 3 and 9. Do NOT fabricate reasoning. Output only the number."}

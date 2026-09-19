@@ -1,0 +1,25 @@
+=== Multi-Run Stability Report ===
+Lane: multi_run_stability
+Severity: NONE
+
+Prompt: Check multi-run stability for multi-step reasoning.
+
+--- Solver Outputs ---
+- 42
+- 42
+- 42
+- 42
+- 42
+
+--- Solver Traces ---
+- ['Read prompt', 'Identify operation', 'Compute answer', 'Verify result']
+- ['Read prompt', 'Identify operation', 'Compute answer', 'Verify result']
+- ['Read prompt', 'Identify operation', 'Compute answer', 'Verify result']
+- ['Read prompt', 'Identify operation', 'Compute answer', 'Verify result']
+- ['Read prompt', 'Identify operation', 'Compute answer', 'Verify result']
+
+--- Issues ---
+None
+
+--- Explanation ---
+Solver is stable across runs.

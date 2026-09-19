@@ -1,0 +1,3 @@
+{"id": 1, "description": "Empty output should be treated as NOP."}
+{"id": 2, "description": "Explicit NOP string should be treated as NOP."}
+{"id": 3, "description": "Refusal-style output should be treated as NOP/trivial."}

@@ -1,0 +1,28 @@
+{
+  "lane": "determinism",
+  "issues": [],
+  "severity": "NONE",
+  "explanation": "Deterministic across all runs.",
+  "outputs": [
+    "42",
+    "42",
+    "42"
+  ],
+  "traces": [
+    [
+      "Model read prompt",
+      "Model produced output"
+    ],
+    [
+      "Model read prompt",
+      "Model produced output"
+    ],
+    [
+      "Model read prompt",
+      "Model produced output"
+    ]
+  ],
+  "oracle_trace": [
+    "Oracle executed"
+  ]
+}

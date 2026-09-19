@@ -1,0 +1,19 @@
+{
+  "lane": "reasoning_drift",
+  "severity": "MODERATE",
+  "score": 0.65,
+  "drift_flags": [
+    "STEP_INVENTION"
+  ],
+  "explanation": "Severity level: MODERATE Model invented reasoning steps not present in the oracle trace.",
+  "trace": [
+    "Read prompt",
+    "Identify operation",
+    "Compute answer"
+  ],
+  "oracle_trace": [
+    "Identify quantities",
+    "Extract relationships",
+    "Compute total"
+  ]
+}

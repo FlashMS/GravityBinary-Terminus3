@@ -1,0 +1,11 @@
+{
+  "prompt": "What is the capital of France?",
+  "model_output": "This is a placeholder model output.",
+  "model_trace": [
+    "Read prompt",
+    "Identify operation",
+    "Compute answer"
+  ],
+  "expected_behavior": "Paris",
+  "match": false
+}

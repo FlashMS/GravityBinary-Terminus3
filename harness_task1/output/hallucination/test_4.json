@@ -1,0 +1,16 @@
+{
+  "lane": "hallucination",
+  "hallucinations": [
+    "MISSING_GROUNDING: prompt",
+    "ORACLE_CONTRADICTION"
+  ],
+  "severity": "SEVERE",
+  "explanation": "Severity: SEVERE Model failed to include required grounded information. Model contradicted the oracle trace.",
+  "trace": [
+    "Model read prompt",
+    "Model produced output"
+  ],
+  "oracle_trace": [
+    "Oracle executed"
+  ]
+}

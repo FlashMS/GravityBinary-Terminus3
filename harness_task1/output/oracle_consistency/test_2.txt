@@ -1,0 +1,21 @@
+=== Oracle Consistency Report ===
+Lane: oracle_consistency
+Severity: NONE
+
+Prompt: Check oracle consistency for logical inference.
+
+--- Oracle Outputs ---
+- 42
+- 42
+- 42
+
+--- Oracle Traces ---
+- ['Read prompt', 'Identify operation', 'Compute answer', 'Verify result']
+- ['Read prompt', 'Identify operation', 'Compute answer', 'Verify result']
+- ['Read prompt', 'Identify operation', 'Compute answer', 'Verify result']
+
+--- Issues ---
+None
+
+--- Explanation ---
+Oracle is consistent across all runs.

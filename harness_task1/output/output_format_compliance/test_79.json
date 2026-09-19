@@ -1,0 +1,9 @@
+{
+  "file": "output/output_format_compliance/test_1.json",
+  "issues": [
+    "MISSING_KEY_LANE",
+    "MISSING_KEY_PROMPT"
+  ],
+  "severity": "CRITICAL",
+  "explanation": "Severity: CRITICAL. Issues: MISSING_KEY_LANE, MISSING_KEY_PROMPT."
+}

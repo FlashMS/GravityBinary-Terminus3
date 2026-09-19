@@ -1,0 +1,6 @@
+{
+  "lane": "difficulty",
+  "version": 1.0,
+  "runs": 8,
+  "required_failures": 3
+}

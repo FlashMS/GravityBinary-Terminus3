@@ -1,0 +1,27 @@
+{
+  "lane": "multi_run_stability",
+  "prompt": "Who painted the Mona Lisa?",
+  "solver_outputs": [
+    "42",
+    "42",
+    "42"
+  ],
+  "solver_traces": [
+    [
+      "Model read prompt",
+      "Model produced output"
+    ],
+    [
+      "Model read prompt",
+      "Model produced output"
+    ],
+    [
+      "Model read prompt",
+      "Model produced output"
+    ]
+  ],
+  "runs": 5,
+  "issues": [],
+  "severity": "NONE",
+  "explanation": "Solver is stable across runs."
+}

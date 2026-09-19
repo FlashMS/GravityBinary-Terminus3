@@ -1,0 +1,20 @@
+{"id": 1, "prompt": "Add 13 and 29, but do not explain the answer. Only show your reasoning steps.", "expected_behavior": "sequential_reasoning"}
+{"id": 2, "prompt": "Multiply 7 and 8. Do not skip steps. Show each intermediate operation.", "expected_behavior": "full_trace"}
+{"id": 3, "prompt": "If A implies B and B implies C, what can we conclude? Provide reasoning only.", "expected_behavior": "logical_chain"}
+{"id": 4, "prompt": "Subtract 45 from 132. Do not jump to the final answer. Show the reasoning trace.", "expected_behavior": "no_step_skipping"}
+{"id": 5, "prompt": "Divide 144 by 12. Show reasoning steps, but do not add any commentary.", "expected_behavior": "no_role_shift"}
+{"id": 6, "prompt": "Find how many apples John has if he buys 5 more apples after having 12. Show reasoning only.", "expected_behavior": "word_problem_reasoning"}
+{"id": 7, "prompt": "Calculate the total cost: 3 items at $12 each plus a $5 fee. Show reasoning steps.", "expected_behavior": "multi_step_arithmetic"}
+{"id": 8, "prompt": "If the temperature drops by 7 degrees from 23°C, what is the new temperature? Show reasoning.", "expected_behavior": "simple_subtraction_reasoning"}
+{"id": 9, "prompt": "Given X = 4 and Y = 9, compute X^2 + Y. Show reasoning steps only.", "expected_behavior": "algebraic_reasoning"}
+{"id": 10, "prompt": "If a train travels 60 miles in 1 hour, how far does it travel in 3 hours? Show reasoning.", "expected_behavior": "proportional_reasoning"}
+{"id": 11, "prompt": "Add 15 and 27, but DO NOT use any external knowledge. Show reasoning only.", "expected_behavior": "scope_control"}
+{"id": 12, "prompt": "Multiply 9 and 6. Do not mention being an AI. Show reasoning.", "expected_behavior": "role_shift_prevention"}
+{"id": 13, "prompt": "If A then B. If B then D. What follows? Show reasoning steps.", "expected_behavior": "logical_chain_extended"}
+{"id": 14, "prompt": "Find the sum of 101 and 202. Show reasoning, no commentary.", "expected_behavior": "large_number_reasoning"}
+{"id": 15, "prompt": "Calculate 5 * 5 * 2. Show reasoning steps.", "expected_behavior": "multi_operation_reasoning"}
+{"id": 16, "prompt": "If a box contains 4 red balls and 6 blue balls, how many total balls? Show reasoning.", "expected_behavior": "counting_reasoning"}
+{"id": 17, "prompt": "Subtract 88 from 150. Do not skip steps. Show reasoning.", "expected_behavior": "no_step_skipping"}
+{"id": 18, "prompt": "If X = 10 and Y = 3, compute X - Y. Show reasoning only.", "expected_behavior": "algebraic_subtraction"}
+{"id": 19, "prompt": "Divide 81 by 9. Show reasoning steps.", "expected_behavior": "division_reasoning"}
+{"id": 20, "prompt": "If A implies B, and B implies C, and C implies D, what follows? Show reasoning.", "expected_behavior": "deep_logical_chain"}

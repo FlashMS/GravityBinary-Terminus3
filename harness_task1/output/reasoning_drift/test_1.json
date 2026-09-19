@@ -1,0 +1,11 @@
+{
+  "prompt": "What is 2 + 2?",
+  "model_output": "This is a placeholder model output.",
+  "model_trace": [
+    "Read prompt",
+    "Identify operation",
+    "Compute answer"
+  ],
+  "expected_behavior": "4",
+  "match": false
+}

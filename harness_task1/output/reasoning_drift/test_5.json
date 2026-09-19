@@ -1,0 +1,11 @@
+{
+  "prompt": "What planet is known as the Red Planet?",
+  "model_output": "This is a placeholder model output.",
+  "model_trace": [
+    "Read prompt",
+    "Identify operation",
+    "Compute answer"
+  ],
+  "expected_behavior": "Mars",
+  "match": false
+}

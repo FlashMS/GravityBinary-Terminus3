@@ -1,0 +1,8 @@
+=== Output Format Compliance Report ===
+Severity: NONE
+
+--- Issues ---
+None
+
+--- Explanation ---
+Report format is fully compliant.

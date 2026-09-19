@@ -1,0 +1,5 @@
+{"id": 1, "prompt": "Add 5 and 9. Do NOT explain the answer. Output only the number.", "expected_behavior": "number_only"}
+{"id": 2, "prompt": "Multiply 3 and 7. Do NOT add commentary. Output only the number.", "expected_behavior": "number_only"}
+{"id": 3, "prompt": "Subtract 10 from 40. Do NOT mention being an AI. Output only the number.", "expected_behavior": "number_only"}
+{"id": 4, "prompt": "Divide 100 by 4. Do NOT use external knowledge. Output only the number.", "expected_behavior": "number_only"}
+{"id": 5, "prompt": "Add 11 and 22. Do NOT show reasoning. Output only the number.", "expected_behavior": "number_only"}

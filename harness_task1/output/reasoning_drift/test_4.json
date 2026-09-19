@@ -1,0 +1,11 @@
+{
+  "prompt": "Who wrote 'Pride and Prejudice'?",
+  "model_output": "This is a placeholder model output.",
+  "model_trace": [
+    "Read prompt",
+    "Identify operation",
+    "Compute answer"
+  ],
+  "expected_behavior": "Jane Austen",
+  "match": false
+}

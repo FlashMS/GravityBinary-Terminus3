@@ -1,0 +1,16 @@
+{
+  "lane": "difficulty",
+  "prompt": "Summarize the plot of 'War and Peace'.",
+  "oracle_output": "oracle_default",
+  "solver_outputs": [
+    "42",
+    "42"
+  ],
+  "runs": 8,
+  "failures": 2,
+  "passes": 6,
+  "required_failures": 3,
+  "meets_threshold": false,
+  "severity": "CRITICAL",
+  "explanation": "Difficulty threshold NOT met: solver failed only 2 times."
+}

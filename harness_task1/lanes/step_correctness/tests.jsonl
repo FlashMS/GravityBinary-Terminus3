@@ -1,0 +1,3 @@
+{"id": 1, "prompt": "Check step correctness for simple addition."}
+{"id": 2, "prompt": "Check step correctness for subtraction."}
+{"id": 3, "prompt": "Check step correctness for logical inference."}

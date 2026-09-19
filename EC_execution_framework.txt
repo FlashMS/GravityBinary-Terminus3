@@ -1,0 +1,246 @@
+Todd, you’re doing exactly what a real engineer does — you’re recognizing that your **framework must evolve** as Terminus‑3 evolves.  
+And yes: with the massive changes announced (difficulty bar, deterministic_execution axis, proven verifier exploits, full first‑pass coverage, new payment rules, new preflight checks), your **EC Execution Framework v1.0** needs a **v1.1 upgrade**.
+
+Below is the **updated, modernized, Terminus‑3‑aligned EC Execution Framework v1.1**, fully incorporating everything from the announcements you pasted.
+
+I’ll give you the full updated framework **right here**, and then you can paste it into your file.
+
+---
+
+# ⭐ EC EXECUTION FRAMEWORK v1.1  
+### (Updated for Terminus‑3 Difficulty, Quality Panel, Deterministic Execution, and New Payment Rules)
+
+This version integrates:
+
+- new difficulty bar (3/8 failures required)  
+- deterministic_execution axis  
+- proven verifier exploits  
+- full first‑pass coverage  
+- updated payment rules  
+- updated preflight checks  
+- updated NOP/oracle expectations  
+- updated difficulty measurement  
+- updated reviewer expectations  
+
+---
+
+# ⭐ 1. VERDICT LOCK (unchanged but now stricter)
+Freeze the verdict before touching anything:
+
+- **Goal** — what the task must achieve  
+- **Success Condition** — what must pass  
+- **Failure Condition** — what must be rejected  
+- **Constraints** — what must NOT be touched  
+
+Now includes:
+
+- **deterministic_execution** requirement  
+- **difficulty stability** requirement  
+- **verifier exploit resistance** requirement  
+
+---
+
+# ⭐ 2. SCOPE LOCK (updated)
+EC CAN modify:
+
+- instruction.md  
+- tests  
+- test_outputs  
+- oracle  
+- verifier  
+- Dockerfile (env + verifier)  
+- task.toml  
+- packaging metadata  
+
+EC CANNOT modify:
+
+- repo code  
+- agent harness  
+- LLMaJ logic  
+- CI logic  
+- anything under `/environment/repo/**`  
+- anything that introduces nondeterminism  
+- anything that introduces dual‑path bash permissions  
+
+---
+
+# ⭐ 3. SEGMENTATION LAYER (updated)
+Segments now include:
+
+1. Instruction  
+2. Environment  
+3. Oracle  
+4. Verifier  
+5. Tests  
+6. Rubric  
+7. Difficulty  
+8. Metadata  
+9. **Deterministic Execution** (new)  
+10. **Preflight Compliance** (new)
+
+Each segment must be isolated and deterministic.
+
+---
+
+# ⭐ 4. ANTI‑DRIFT PROTOCOL (expanded)
+Every action must map to a reviewer checklist item.
+
+New drift triggers:
+
+- nondeterministic execution  
+- unseeded randomness  
+- wall‑clock timestamps  
+- race conditions  
+- vague requirements  
+- requirements not tested  
+- partial coverage  
+- dual‑path bash permissions  
+- difficulty mismatches that cause 100% solver accuracy  
+- oracle shortcuts  
+- verifier exploits  
+- missing NOP failure  
+- missing wrong‑solution failure  
+
+Your cockpit already prevents most of these.
+
+---
+
+# ⭐ 5. CONTROL PANEL (STATE MACHINE) (expanded)
+Add new fields:
+
+- **Deterministic Execution Status**  
+- **Difficulty Stability Status**  
+- **Verifier Exploit Status**  
+- **Preflight Compliance Status**  
+- **Quality Panel Axis Mapping**  
+- **3/8 Difficulty Threshold Check**  
+
+This ensures you always know:
+
+- where you are  
+- what’s blocking  
+- what must be fixed  
+- what must be proven  
+- what must be deterministic  
+
+---
+
+# ⭐ 6. REVERSIBILITY RULE (unchanged)
+Every change must be reversible.
+
+If not reversible → invalid.
+
+---
+
+# ⭐ 7. REVIEWER ALIGNMENT (expanded)
+Your fixes must satisfy:
+
+- Reviewer Checklist  
+- Quality Panel Judge Guide  
+- LLMaJ  
+- CI  
+- Difficulty guidelines  
+- Task taxonomy  
+- Instruction length rules  
+- Verifier isolation  
+- Artifact rules  
+- Determinism rules  
+- **Deterministic Execution Axis**  
+- **Full First‑Pass Coverage**  
+- **Proven Exploit Resistance**  
+- **3/8 Difficulty Threshold**  
+
+If any fail → task is invalid.
+
+---
+
+# ⭐ 8. EXECUTION LOG (expanded)
+Log now includes:
+
+- deterministic execution checks  
+- wrong‑solution runs  
+- NOP runs  
+- exploit attempts  
+- difficulty runs  
+- preflight checks  
+- dual‑path bash checks  
+- seed stability checks  
+
+This is your black box recorder.
+
+---
+
+# ⭐ 9. FINAL CONSISTENCY PASS (expanded)
+Before submission:
+
+- instruction ↔ tests  
+- oracle ↔ tests  
+- verifier ↔ tests  
+- artifacts ↔ task.toml  
+- difficulty ↔ measured behavior  
+- rubric ↔ instruction/tests  
+- environment deterministic  
+- oracle deterministic  
+- verifier deterministic  
+- tests deterministic  
+- no canaries  
+- no shortcuts  
+- no nondeterminism  
+- no ambiguity  
+- no drift  
+- **NOP fails**  
+- **wrong solution fails**  
+- **oracle passes 3/3**  
+- **difficulty beats solver 3/8**  
+- **deterministic_execution axis passes**  
+- **preflight checks pass**  
+
+This is the EC Seal of Correctness v1.1.
+
+---
+
+# ⭐ 10. SUBMISSION PROTOCOL (updated)
+Final steps:
+
+- run oracle  
+- run CI  
+- run LLMaJ  
+- run difficulty (`-k 4`)  
+- run NOP  
+- run wrong solution  
+- verify isolation  
+- verify artifacts  
+- verify determinism  
+- verify rubric  
+- verify metadata  
+- verify dual‑path bash compliance  
+- zip files (not folder)  
+- submit after daily reset  
+
+Daily reset for you: **8 PM EDT**.
+
+---
+
+# ⭐ Todd — this is EC Execution Framework v1.1  
+This version is aligned with:
+
+- new difficulty bar  
+- new deterministic axis  
+- new exploit‑proofing  
+- new first‑pass coverage  
+- new payment rules  
+- new preflight checks  
+- new solver thresholds  
+
+You’re now operating at **Terminus‑3 modern standards**.
+
+If you want, I can help you:
+
+- integrate this into your cockpit  
+- generate a Markdown version  
+- generate a checklist version  
+- generate a control panel template  
+- generate a v1.1 PDF‑style document  
+- generate a Terminus‑3 task template aligned with v1.1  
+
+Just tell me which format you want next.

@@ -1,0 +1,20 @@
+=== Reasoning Drift Report ===
+Lane: reasoning_drift
+Severity: MODERATE
+Score: 0.65
+
+--- Drift Flags ---
+- STEP_INVENTION
+
+--- Explanation ---
+Severity level: MODERATE Model invented reasoning steps not present in the oracle trace.
+
+--- Model Reasoning Trace ---
+- Read prompt
+- Identify operation
+- Compute answer
+
+--- Oracle Reasoning Trace ---
+- Identify numbers
+- Apply multiplication
+- Compute product

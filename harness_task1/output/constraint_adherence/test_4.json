@@ -1,0 +1,15 @@
+{
+  "lane": "constraint_adherence",
+  "violations": [
+    "FORMAT_VIOLATION"
+  ],
+  "severity": "MODERATE",
+  "explanation": "Severity: MODERATE Model did not follow required output format.",
+  "trace": [
+    "Model read prompt",
+    "Model produced output"
+  ],
+  "oracle_trace": [
+    "Oracle executed"
+  ]
+}

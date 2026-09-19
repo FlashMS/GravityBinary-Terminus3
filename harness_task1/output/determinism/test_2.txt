@@ -1,0 +1,24 @@
+=== Determinism Detection Report ===
+Lane: determinism
+Severity: NONE
+
+--- Issues ---
+None
+
+--- Explanation ---
+Deterministic across all runs.
+
+--- Outputs ---
+- 42
+- 42
+- 42
+
+--- Traces ---
+- ['Read prompt', 'Compute answer']
+- ['Read prompt', 'Compute answer']
+- ['Read prompt', 'Compute answer']
+
+--- Oracle Trace ---
+- Read prompt
+- Check determinism
+- Produce stable reference

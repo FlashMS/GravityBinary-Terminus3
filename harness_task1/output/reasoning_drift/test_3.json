@@ -1,0 +1,11 @@
+{
+  "prompt": "What is the boiling point of water in Celsius?",
+  "model_output": "This is a placeholder model output.",
+  "model_trace": [
+    "Read prompt",
+    "Identify operation",
+    "Compute answer"
+  ],
+  "expected_behavior": "100",
+  "match": false
+}

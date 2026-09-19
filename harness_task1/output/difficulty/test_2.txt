@@ -1,0 +1,24 @@
+=== Difficulty Measurement Report ===
+Lane: difficulty
+Severity: NONE
+
+Prompt: Measure difficulty for logical inference.
+
+Oracle Output: 42
+
+--- Solver Outputs ---
+- 42
+- 41
+- 42
+- 40
+- 42
+- 39
+- 42
+- 38
+
+Runs: 8
+Failures: 4
+Required Failures: 3
+
+--- Explanation ---
+Difficulty threshold met: solver failed 4 times.

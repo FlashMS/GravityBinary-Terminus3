@@ -1,0 +1,30 @@
+{
+  "lane": "step_correctness",
+  "issues": [
+    "STEP_MISMATCH",
+    "MISSING_STEPS",
+    "EXTRA_STEPS"
+  ],
+  "severity": "CRITICAL",
+  "explanation": "Severity: CRITICAL Missing steps: ['Oracle executed'] Extra steps: ['Model read prompt', 'Model produced output']",
+  "prompt": "Compute 5 + 7.",
+  "output": "42",
+  "trace": [
+    "Model read prompt",
+    "Model produced output"
+  ],
+  "oracle_trace": [
+    "Oracle executed"
+  ],
+  "step_alignment": {
+    "all_match": false,
+    "missing_steps": [
+      "Oracle executed"
+    ],
+    "extra_steps": [
+      "Model read prompt",
+      "Model produced output"
+    ],
+    "reordered_steps": false
+  }
+}

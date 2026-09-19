@@ -1,0 +1,18 @@
+=== Constraint Adherence Report ===
+Lane: constraint_adherence
+Severity: NONE
+
+--- Violations ---
+None
+
+--- Explanation ---
+No constraint violations detected.
+
+--- Model Trace ---
+- Read prompt
+- Compute answer
+
+--- Oracle Trace ---
+- Read instruction
+- Identify constraints
+- Produce compliant output

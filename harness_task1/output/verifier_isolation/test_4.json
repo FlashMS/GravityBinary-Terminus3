@@ -1,0 +1,16 @@
+{
+  "lane": "verifier_isolation",
+  "prompt": "Answer only: Who wrote 'The Hobbit'?",
+  "solver_outputs": [
+    "42",
+    "42"
+  ],
+  "verifier_decisions": [
+    "accept",
+    "accept"
+  ],
+  "runs": 3,
+  "issues": [],
+  "severity": "NONE",
+  "explanation": "Verifier is isolated and stable across runs."
+}

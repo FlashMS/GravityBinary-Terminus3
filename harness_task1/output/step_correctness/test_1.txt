@@ -1,0 +1,33 @@
+=== Step Correctness Report ===
+Lane: step_correctness
+Severity: NONE
+
+--- Issues ---
+None
+
+--- Explanation ---
+All reasoning steps match the oracle trace.
+
+--- Prompt ---
+Check step correctness for simple addition.
+
+--- Output ---
+42
+
+--- Model Trace ---
+- Read prompt
+- Identify operation
+- Compute answer
+- Verify result
+
+--- Oracle Trace ---
+- Read prompt
+- Identify operation
+- Compute answer
+- Verify result
+
+--- Step Alignment ---
+All match: True
+Missing steps: []
+Extra steps: []
+Reordered steps: False

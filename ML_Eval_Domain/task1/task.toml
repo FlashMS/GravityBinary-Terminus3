@@ -1,0 +1,17 @@
+name = "ml_reasoning_drift_evaluation"
+version = "1.0.0"
+timeout_seconds = 600
+
+[environment]
+dockerfile = "environment/Dockerfile"
+
+[solution]
+entrypoint = "solution/solve.sh"
+
+[tests]
+dockerfile = "tests/Dockerfile"
+entrypoint = "tests/test.sh"
+
+[resources]
+cpu_cores = 2
+memory_mb = 2048

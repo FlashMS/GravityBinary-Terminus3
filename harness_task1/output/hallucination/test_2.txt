@@ -1,0 +1,19 @@
+=== Hallucination Detection Report ===
+Lane: hallucination
+Severity: SEVERE
+
+--- Hallucinations ---
+- MISSING_GROUNDING: prompt
+- ORACLE_CONTRADICTION
+
+--- Explanation ---
+Severity: SEVERE Model failed to include required grounded information. Model contradicted the oracle trace.
+
+--- Model Trace ---
+- Read prompt
+- Compute answer
+
+--- Oracle Trace ---
+- Read prompt
+- Extract grounded facts
+- Produce fact-based answer

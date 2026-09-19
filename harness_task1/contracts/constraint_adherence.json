@@ -1,0 +1,14 @@
+{
+  "lane": "constraint_adherence",
+  "version": "1.0",
+  "expected_behavior": "number_only",
+  "forbidden_phrases": [
+    "as an ai",
+    "i cannot",
+    "i'm unable",
+    "explanation:",
+    "commentary:",
+    "because"
+  ],
+  "required_format": "number_only"
+}

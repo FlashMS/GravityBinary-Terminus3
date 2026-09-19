@@ -1,0 +1,16 @@
+{
+  "cases": [
+    {
+      "oracle_trace": ["Read problem", "Identify numbers", "Set up equation", "Solve equation"],
+      "model_trace": ["Read problem", "Identify numbers", "Set up equation", "Solve equation"]
+    },
+    {
+      "oracle_trace": ["Read problem", "Identify numbers", "Set up equation", "Solve equation"],
+      "model_trace": ["Read problem", "Set up equation", "Solve equation"]
+    },
+    {
+      "oracle_trace": ["Read problem", "Identify numbers", "Set up equation", "Solve equation"],
+      "model_trace": ["Read problem", "Identify numbers", "Set up equation", "Solve equation", "Talk about unrelated topic"]
+    }
+  ]
+}
