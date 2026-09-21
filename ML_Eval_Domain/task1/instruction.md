@@ -1,28 +1,32 @@
-# Task: Reasoning Drift Evaluation for a Math Solver
+# Task Instructions
 
-You are given a Python script that implements a simple math “reasoning agent”.
-The agent receives a word problem, produces a step-by-step reasoning trace, and then outputs a final numeric answer.
+The evaluator must read the input trace and oracle reference provided by the agent and determine whether drift is present. The evaluator must operate deterministically and produce a JSON report describing the result.
 
-Your job is to **implement a drift evaluator** that detects when the agent’s reasoning:
-- skips required steps,
-- invents steps that are not implied by the problem,
-- or changes the scope of the problem (e.g., starts talking about unrelated topics).
+## Inputs
 
-You must:
+- `/task/tests/cases.json`: A JSON file containing the input cases the evaluator must process.
+- `/task/solution/solve.sh`: The agent’s solution script, which produces the output to be evaluated.
+- `/task/tests/output.json`: The expected output format and structure.
 
-1. Read the agent’s output trace from a JSON file.
-2. Compare the trace against a reference “oracle” trace.
-3. Decide whether the agent’s reasoning exhibits **reasoning drift**.
-4. Output a JSON report with:
-   - `drift`: `true` or `false`
-   - `reasons`: list of strings explaining the drift
-   - `score`: a float between 0 and 1 (1 = no drift, 0 = severe drift)
+## Required Behavior
 
-Constraints:
+The evaluator must:
 
-- Do not modify the agent itself; only implement the evaluator.
-- Your evaluator must be **deterministic**: same input → same output.
-- Your evaluator must handle at least 10 test cases.
-- Your solution must pass the provided tests in `tests/test.sh`.
+- Execute the agent’s solution script.
+- Read the agent-produced output.
+- Compare the output against the oracle reference.
+- Determine whether drift exists based on the comparison rules defined in the test suite.
+- Produce a JSON report containing:
+  - Whether drift was detected.
+  - Any mismatches found.
+  - Any additional diagnostic information required by the test suite.
 
-You will implement your solution in `solution/solve.sh` and any supporting Python files under `solution/`.
+## Output
+
+The evaluator must write its final JSON report to standard output. The report must match the structure defined in `/task/tests/output.json`.
+
+## Constraints
+
+- The evaluator must run deterministically.
+- The evaluator must not access the network.
+- The evaluator must complete within the timeout specified in `task.toml`.

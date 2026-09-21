@@ -1,10 +1,9 @@
 {
-  "file": "output/reasoning_drift/test_3.json",
+  "file": "output/output_format_compliance/test_138.json",
   "issues": [
     "MISSING_KEY_LANE",
-    "MISSING_KEY_SEVERITY",
-    "MISSING_KEY_EXPLANATION"
+    "MISSING_KEY_PROMPT"
   ],
   "severity": "CRITICAL",
-  "explanation": "Severity: CRITICAL. Issues: MISSING_KEY_LANE, MISSING_KEY_SEVERITY, MISSING_KEY_EXPLANATION."
+  "explanation": "Severity: CRITICAL. Issues: MISSING_KEY_LANE, MISSING_KEY_PROMPT."
 }

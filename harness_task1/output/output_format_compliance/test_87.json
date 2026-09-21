@@ -1,5 +1,5 @@
 {
-  "file": "output/output_format_compliance/test_17.json",
+  "file": "output/output_format_compliance/test_106.json",
   "issues": [
     "MISSING_KEY_LANE",
     "MISSING_KEY_PROMPT"

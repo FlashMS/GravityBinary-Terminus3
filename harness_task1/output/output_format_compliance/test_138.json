@@ -1,6 +1,9 @@
 {
-  "file": "output/verifier_isolation/test_5.json",
-  "issues": [],
-  "severity": "NONE",
-  "explanation": "Report format is fully compliant."
+  "file": "output/output_format_compliance/test_28.json",
+  "issues": [
+    "MISSING_KEY_LANE",
+    "MISSING_KEY_PROMPT"
+  ],
+  "severity": "CRITICAL",
+  "explanation": "Severity: CRITICAL. Issues: MISSING_KEY_LANE, MISSING_KEY_PROMPT."
 }

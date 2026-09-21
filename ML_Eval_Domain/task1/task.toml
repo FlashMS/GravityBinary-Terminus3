@@ -1,17 +1,31 @@
-name = "ml_reasoning_drift_evaluation"
-version = "1.0.0"
-timeout_seconds = 600
+[metadata]
+name = "Terminus3 Task 1"
+author_name = "Todd Wolf"
+author_email = "tokabg@yahoo.com"
+category = "Software"
+subcategory = "Languages"
+tags = ["python", "docker", "evaluation"]
+difficulty = "medium"
+difficulty_explanation = "The task requires building a deterministic evaluation environment, writing a solution script, and validating outputs using a separate verifier."
+solution_explanation = "The solution script processes the input cases and produces the expected output.json according to the task rules."
+verification_explanation = "The verifier uses tests/test.sh inside a separate Docker image to validate solver output deterministically."
+relevant_experience = "Experience with Python, Docker, and deterministic evaluation pipelines."
+expert_time_estimate_hours = 1
+languages = ["python"]
 
 [environment]
-dockerfile = "environment/Dockerfile"
+cpus = 1
+memory_mb = 512
+storage_mb = 512
+network_mode = "public"
+build_timeout_sec = 300
 
-[solution]
-entrypoint = "solution/solve.sh"
+[agent]
+network_mode = "no-network"
 
-[tests]
-dockerfile = "tests/Dockerfile"
-entrypoint = "tests/test.sh"
+[verifier]
+network_mode = "no-network"
+environment_mode = "separate"
 
-[resources]
-cpu_cores = 2
-memory_mb = 2048
+[task]
+timeout_sec = 120
